@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Matura MT Script Capitals';
+  src: url('path/to/matura-mt-script-capitals.woff2') format('woff2'), /* Modern Browsers */
+       url('path/to/matura-mt-script-capitals.woff') format('woff'), /* Modern Browsers */
+       url('path/to/matura-mt-script-capitals.ttf') format('truetype'), /* Legacy Browsers */
+       url('path/to/matura-mt-script-capitals.svg#filename') format('svg'); /* Legacy iOS */
+  /* Add additional formats as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.full-text {
+    white-space: normal;
+}
+/* .ast_btn {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+} */
+ .image{
+    width: 700px !important;
+    height: 400px;
+    /* margin-left: 100px ; */
+    border-radius: 10px;
+    border: 5px solid orange;
+ }
+ .ast_download_wrapper{
+    height: 300px !important;
+ }
+ .ast_logo h3{
+    margin-top: -6px;
+    margin-left: -5px;
+    /* display: inline; */
+ }
+ .ast_logo p{
+  color:rgb(83, 3, 3) !important;
+    border: 1px solid rgb(117, 14, 14);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 335px;
+    /* padding-top: -150px !important; */
+    font-size: 10px;
+ }
+ .logo{
+   font-size: 40px;
+   width: 400px;
+   color:rgb(83, 3, 3) !important;
+   
+   /* text-decoration: underline; */
+   /* border: 2px solid white; */
+ }
+ 
+ .ast_menu li a{
+   font-weight: 800;
+ }
+ @media (max-width: 479px){
+   .logo{
+      font-size: 20px;
+   }
+   .ast_logo p{
+      margin-left: 170px;
+      margin-top: -32px;
+   }
+    .image1{
+      height: 400px;
+      width: 300px;
+      margin-top:  -90px !important;
+      text-align: center !important;
+      margin-right: 90px;
+    }
+    /* .ast_slider_wrapper{
+      width: ;
+    } */_
+    .imagee{
+      height: 30px !important;
+      width: 10px !important;
+      border: 2px solid rgb(85, 15, 15) !important;
+      
+    }
+
+    .ast_menu_btn{
+      margin-top: -10px !important;
+    }
+    .image{
+      height: 200px;
+      width:200px;
+      margin-left: 20px !important;
+     }
+    /* .ast_header_bottom{
+      margin-top: 70px;
+    } */
+
+ }
+ 
+ .ast_about_info_img{
+   border-radius: 50%;
+   height: 400px;
+   width: 400px;
+ }
+ .gem{
+  height: 200px;
+  width:200px;
+ }
+ .row h3{
+  font-family: 'Matura MT Script Capitals', cursive !important;
+  color: #ff6f00 !important;
+ }

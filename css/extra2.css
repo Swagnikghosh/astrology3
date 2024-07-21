@@ -1,0 +1,9 @@
+.ast_blog_img img{
+    width: 300px !important;
+    height: 300px !important;
+    margin-left: 200px;
+    border:2px solid white
+}
+.ast_blog_img span{
+    display: none;
+}
