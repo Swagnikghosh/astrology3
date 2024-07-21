@@ -53,7 +53,20 @@ Assigned to: Themeforest
     font-weight: normal;
     font-style: normal;
 }
-
+@media (max-width: 479px){
+	.imagee{
+		height: 40px !important;
+		width: 230px !important;
+		
+		margin-top: -25px !important;
+		margin-left: -16px;
+		
+	  }
+	  
+	  .ast_menu_btn{
+		margin-top: -50px !important;
+	  }
+	}
 
 body {
 	font-family: 'Open Sans', sans-serif;
