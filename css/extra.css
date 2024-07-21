@@ -10,7 +10,9 @@
 }
 
 
-
+.imagee{
+  
+}
 
 .truncate {
     overflow: hidden;
@@ -79,6 +81,7 @@
       margin-top:  -90px !important;
       text-align: center !important;
       margin-right: 90px;
+      margin-left: 40px;
     }
     /* .ast_slider_wrapper{
       width: ;
@@ -94,9 +97,9 @@
       margin-top: -10px !important;
     }
     .image{
-      height: 200px;
-      width:200px;
-      margin-left: 20px !important;
+      height: 300px !important;
+      width:330px !important;
+      margin-left: 10px !important;
      }
     /* .ast_header_bottom{
       margin-top: 70px;
